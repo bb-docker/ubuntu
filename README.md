@@ -6,7 +6,7 @@ These instructions will get you to build ubuntu in your docker. See Installation
 
 ### Installation
 1. Install [Docker](https://www.docker.com/).
-2. Download [automated build](https://hub.docker.com/r/bananabb/ubuntu-base/) from public [Docker Hub](https://hub.docker.com/) or run Usage tag provided.
+2. Download [automated build](https://hub.docker.com/r/bananabb/ubuntu/) from public [Docker Hub](https://hub.docker.com/) or run Usage tag provided.
 
 ### Usage
 ```
