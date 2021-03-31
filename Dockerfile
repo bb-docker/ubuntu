@@ -16,6 +16,7 @@ RUN apt-get update  \
 	nano \ 
 	vim \ 
 	htop \
-	tree
+	tree \
+	systemd
 
-CMD ["tail", "-f", "/dev/null"]
+CMD ["/bin/bash"]
