@@ -1,8 +1,8 @@
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 MAINTAINER BananaBb
 
 # Install common tools
-ARG DEBIAN_FRONTEND=noninteractive
+ARG DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC
 RUN apt-get update  \ 
  && apt-get install -y \ 
 	dialog \ 
