@@ -17,6 +17,7 @@ RUN apt-get update  \
 	vim \ 
 	htop \
 	tree \
+	systemd \
 	software-properties-common
 
 CMD ["/bin/bash"]
