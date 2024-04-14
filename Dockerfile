@@ -12,6 +12,7 @@ RUN apt-get update  \
 	bzip2 \ 
 	wget \ 
 	curl \ 
+    cron \ 
 	git \ 
 	nano \ 
 	vim \ 
